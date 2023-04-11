@@ -1,10 +1,12 @@
 import React from 'react'
+import "../styles/Card.css"
 
-export const Logement = ({id, img, title}) => {
+export default function Card({id, img, title}) {
   return (
-    <div id={id}>
+    <div id={id} className="card">
         <img src={img} alt="logement"/>
-        <span>{title}</span>
+        <div className='shadow'></div>
+        <p>{title}</p>
     </div>
   )
 }
