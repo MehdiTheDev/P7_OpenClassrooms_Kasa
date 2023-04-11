@@ -1,0 +1,21 @@
+.banner {
+    height: 111px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.banner > img {
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.banner > h1 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-weight: 500;
+    left: 5%;
+    font-size: 0.5;
+}
