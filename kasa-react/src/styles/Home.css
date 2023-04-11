@@ -2,6 +2,8 @@
     height: 111px;
     margin-bottom: 35px;
     position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .banner > img {
@@ -18,4 +20,5 @@
     font-weight: 500;
     left: 5%;
     font-size: 0.5;
+    position: absolute;
 }
