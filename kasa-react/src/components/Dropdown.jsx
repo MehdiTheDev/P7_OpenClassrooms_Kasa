@@ -16,7 +16,7 @@ export default function Dropdown({titre, description}) {
             </div>
             {
                 /* Si le dropdown est à TRUE alors il affichera la description */
-                ouvert && <div className="description-dropdown">{description}</div>
+                ouvert && <div className="description-dropdown"><p>{description}</p></div>
             }
         </div>
     );
