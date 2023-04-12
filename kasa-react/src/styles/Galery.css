@@ -1,10 +1,15 @@
 .galery {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 20px;
     flex-wrap: wrap;
     margin: 50px 16px;
 }
+
+.navlink-card {
+        width: 100%;
+}
+
 
 @media screen and (min-width: 1490px) {
     .galery {
@@ -12,5 +17,9 @@
         background-color: #F6F6F6;
         border-radius: 25px;
         margin: 0px 100px 43px 100px;
+    }
+
+    .navlink-card {
+        width: 30%;
     }
 }
