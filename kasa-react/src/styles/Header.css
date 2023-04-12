@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 0 0 20px 0;
+    margin: 20px;
     padding: 0;
     height: 45px;
 }
@@ -21,5 +21,15 @@
     font-weight: 500;
     background: none;
     text-decoration: none;
+}
+
+@media screen and (min-width: 1490px) {
+    .header {
+        height: 68px;
+        margin: 40px 100px 0px 100px;
+    }
+    .nav-button {
+        font-size: 24px;
+    }
 }
 

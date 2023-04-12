@@ -1,0 +1,35 @@
+.banner {
+    height: 111px;
+    margin: 20px 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.banner > img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.banner > h1 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-weight: 500;
+    left: 5%;
+    font-size: 1.5rem;
+    position: absolute;
+}
+
+@media screen and (min-width: 1490px) {
+    .banner {
+        height: 223px;
+        margin: 63px 100px;
+    }
+    .banner > h1 {
+        left: 30%;
+        font-size: 48px;
+    }
+}

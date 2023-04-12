@@ -1,8 +1,7 @@
 .card {
     position: relative;
-    margin-bottom: 35px;
-    min-height: 255px;
-    min-width: 335px;
+    height: 255px;
+    width: 335px;
 }
 
 .card > img {
@@ -31,4 +30,11 @@
     position: absolute;
     top: 0;
     width: 100%;
+}
+
+@media screen and (min-width: 1490px) {
+    .card {
+        height: 340px;
+        width: 340px;
+    }
 }
