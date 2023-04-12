@@ -14,6 +14,13 @@
     filter: brightness(70%);
 }
 
+.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 16px;
+}
+
 @media screen and (min-width: 1490px) {
     .about-banner {
         height: 223px;

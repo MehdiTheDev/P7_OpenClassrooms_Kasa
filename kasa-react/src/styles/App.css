@@ -1,0 +1,9 @@
+* {
+    font-family: Montserrat;
+}
+
+@media screen and (min-width: 1490px) {
+    * {
+        font-size: 24px;
+    }
+}
