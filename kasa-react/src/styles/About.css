@@ -1,0 +1,26 @@
+.about-banner {
+    height: 223px;
+    margin: 20px 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.about-banner > img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+@media screen and (min-width: 1490px) {
+    .about-banner {
+        height: 223px;
+        margin: 63px 100px;
+    }
+    .about-banner > h1 {
+        left: 30%;
+        font-size: 48px;
+    }
+}
