@@ -7,19 +7,20 @@ export default function Carrousel({images}) {
     
     let [imgAfficher, changerImg] = useState(0)
     let nombreImg = images.length
-
+    console.log(nombreImg)
+    console.log(imgAfficher)
     const imgPrecedente = () => {
         if(imgAfficher === 0) {
             changerImg(nombreImg - 1)
         } else {
-            changerImg(nombreImg - 1)
+            changerImg(imgAfficher - 1)
         }
         return(changerImg)
     }
 
     const imgSuivante = () =>  {
         if(imgAfficher === nombreImg - 1) {
-            changerImg(nombreImg  = 0)
+            changerImg(nombreImg = 0)
         } else {
             changerImg(imgAfficher + 1)
         }
