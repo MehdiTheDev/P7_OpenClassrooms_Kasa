@@ -9,7 +9,7 @@ export default function Header() {
             <img src={Logo} alt="logo"/>
             <nav className="nav">
                 <NavLink to="/"  className="nav-button">Accueil</NavLink>
-                <NavLink to="/a-propos" className="nav-button">A Propos</NavLink>
+                <NavLink to="/a-propos" className="nav-button">À Propos</NavLink>
             </nav>
         </div>
     )
